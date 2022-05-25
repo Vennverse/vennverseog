@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/vennverseog/static/css/main.767e5684.chunk.css",
+    "main.js": "/vennverseog/static/js/main.2ef264b7.chunk.js",
+    "main.js.map": "/vennverseog/static/js/main.2ef264b7.chunk.js.map",
+    "runtime-main.js": "/vennverseog/static/js/runtime-main.4b5c890b.js",
+    "runtime-main.js.map": "/vennverseog/static/js/runtime-main.4b5c890b.js.map",
+    "static/css/2.14c532d4.chunk.css": "/vennverseog/static/css/2.14c532d4.chunk.css",
+    "static/js/2.4b091f9b.chunk.js": "/vennverseog/static/js/2.4b091f9b.chunk.js",
+    "static/js/2.4b091f9b.chunk.js.map": "/vennverseog/static/js/2.4b091f9b.chunk.js.map",
+    "index.html": "/vennverseog/index.html",
+    "service-worker.js": "/vennverseog/service-worker.js",
+    "service-worker.js.map": "/vennverseog/service-worker.js.map",
+    "static/css/2.14c532d4.chunk.css.map": "/vennverseog/static/css/2.14c532d4.chunk.css.map",
+    "static/css/main.767e5684.chunk.css.map": "/vennverseog/static/css/main.767e5684.chunk.css.map",
+    "static/js/2.4b091f9b.chunk.js.LICENSE.txt": "/vennverseog/static/js/2.4b091f9b.chunk.js.LICENSE.txt",
+    "static/media/Coin98.1e4e4073.png": "/vennverseog/static/media/Coin98.1e4e4073.png",
+    "static/media/MathWallet.19212234.svg": "/vennverseog/static/media/MathWallet.19212234.svg",
+    "static/media/SafePal.e7068bbc.svg": "/vennverseog/static/media/SafePal.e7068bbc.svg",
+    "static/media/TokenPocket.0ba48742.svg": "/vennverseog/static/media/TokenPocket.0ba48742.svg",
+    "static/media/wallet-connect.304e3277.svg": "/vennverseog/static/media/wallet-connect.304e3277.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4b5c890b.js",
+    "static/css/2.14c532d4.chunk.css",
+    "static/js/2.4b091f9b.chunk.js",
+    "static/css/main.767e5684.chunk.css",
+    "static/js/main.2ef264b7.chunk.js"
+  ]
+}
