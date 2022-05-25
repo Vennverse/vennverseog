@@ -20,8 +20,7 @@ import Gamify from "components/Gamify";
 import Contract from "components/Contract/Contract";
 import Ramper from "components/Ramper";
 import MenuItems from "./components/MenuItems";
-import logo from "Logo.png";
-import { TrophyFilled, GiftFilled, FireFilled } from "@ant-design/icons";
+//import { TrophyFilled, GiftFilled, FireFilled } from "@ant-design/icons";
 const { Header } = Layout;
 
 const styles = {
@@ -64,18 +63,18 @@ const App = ({ isServerInfo }) => {
       enableWeb3({ provider: connectorId });
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isAuthenticated, isWeb3Enabled]);
-
+ 
   return (
     <Layout
       style={{
-        height: "100vh",
+        height: "auto",
         overflow: "auto",
         background: "linear-gradient(#172430, #001529)",
       }}
     >
       <Router>
         <Header theme="dark" style={styles.header}>
-          <img src={logo} alt="" style={{ width: "48px" }}></img>
+          <h1>Vennverse</h1>
           <MenuItems />
           <div style={styles.headerRight}>
             <TokenPrice
@@ -91,20 +90,7 @@ const App = ({ isServerInfo }) => {
         <div style={styles.content}>
           <Switch>
             <Route exact path="/gamify">
-              <Tabs
-                defaultActiveKey="1"
-                tabPosition="left"
-              >
-                <Tabs.TabPane tab={<span><FireFilled />My Runes</span>} key="1">
-                  <Gamify tab="runes" />
-                </Tabs.TabPane>
-                <Tabs.TabPane tab={<span><TrophyFilled /> Leaderboard</span>} key="2">
-                  <Gamify tab="leaderboard" />
-                </Tabs.TabPane>
-                <Tabs.TabPane tab={<span><GiftFilled /> Rewards</span>} key="3">
-                  <Gamify tab="rewards" />
-                </Tabs.TabPane>
-              </Tabs>
+              <Gamify />
             </Route>
             <Route path="/wallet">
               <Wallet />
